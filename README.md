@@ -1,6 +1,6 @@
 # Colorcombination
 
-How to use this class 
+<p> How to use this class "colorcomponent" </p>
         Dim colora As Color
         colora = Color.Red
         Dim colorb As Color
