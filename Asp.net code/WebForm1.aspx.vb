@@ -64,7 +64,7 @@ Public Class WebForm1
         End Function
     End Class
 
-    Public Function getallcolors() As String
+    Public Sub getallcolors()
 
         Dim mincolor = ColorTranslator.ToHtml(RadColorPickerMin.SelectedColor)
         Dim maxcolor = ColorTranslator.ToHtml(RadColorPickerMax.SelectedColor)
@@ -91,7 +91,7 @@ Public Class WebForm1
 
 
 
-    End Function
+    End Sub
 
 
     Private Sub generatecolor(ByRef outColor As Color(), colora As Color, colorb As Color, numberofcolorinbetween As Integer)
